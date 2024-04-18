@@ -76,6 +76,14 @@ section {
   margin: 0 auto;
   max-width: 1024px;
 }
+.imgwithcap {
+  text-align: center;
+  margin: 10px 0;
+}
+.caption {
+  line-height: 1.2em;
+  margin-top: 6px;
+}
 .content-card {
   background-color: var(--bg-content-color);
   max-width: var(--content-width);
