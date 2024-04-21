@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
 
+    goTopButton.style.display = 'none';
+
     goTopButton.addEventListener('click', function () {
         window.scrollTo({
             top: 0,
